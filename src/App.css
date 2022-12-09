@@ -175,3 +175,7 @@ p{
   text-shadow: 2px 0 #0000CD	, -2px 0 #0000CD	, 0 2px #0000CD	, 0 -2px #0000CD	,
   1px 1px #0000CD	, -1px -1px #0000CD	, 1px -1px #0000CD	, -1px 1px #0000CD	;
 }
+
+.page-footer{
+  background-color: #FFFF00;
+}

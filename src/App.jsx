@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './views/Home';
 import Pokemones from './views/Pokemones';
 import Pokemon from './views/Pokemon';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/pokemones"element={<Pokemones/>}></Route>
             <Route path="/pokemones/:name"element={<Pokemon/>}></Route>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </Context>    
     </div>
